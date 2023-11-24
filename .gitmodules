@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-ladder-my"]
+	path = themes/hugo-theme-ladder-my
+	url = https://github.com/QiuRunwen/hugo-theme-ladder-my.git
