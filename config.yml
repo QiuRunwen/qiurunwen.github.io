@@ -57,7 +57,7 @@ params:
     google:
       SiteVerificationTag: xxx
     umami:
-      enable: true # TODO: enable it
+      enable: true
       website_id: f8de9091-4edf-4da1-927c-2124c61fe85b
       url: https://vercel-umami-five.vercel.app/script.js
   guestbook:
