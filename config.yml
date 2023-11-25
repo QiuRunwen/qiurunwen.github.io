@@ -1,8 +1,8 @@
 baseURL: 'https://qiurunwen.github.io'
 title: RunwenQiu
 theme: hugo-theme-ladder-my
-license: MIT
-licenselink: 'https://github.com/guangzhengli/hugo-theme-ladder/blob/master/LICENSE'
+license: CC BY-SA 4.0
+licenselink: 'https://creativecommons.org/licenses/by-sa/4.0/'
 description: 'RunwenQiu''s blog'
 homepage: 'https://qiurunwen.github.io'
 defaultContentLanguage: 'en'
@@ -25,7 +25,12 @@ menu:
     # - name: Dashboard
     #   url: https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite
     #   weight: 5
+    # - name: Search
+    #   url: /search
+    #   weight: 6
 params:
+  license: 'CC BY-SA 4.0'
+  licenseLink: 'https://creativecommons.org/licenses/by-sa/4.0/'
   brand: HOME
   avatarURL: /images/avatar.png
   author: RunwenQiu
@@ -76,6 +81,7 @@ languages:
   en:
     languageName: EN
   zh:
+    licenseLink: 'https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans'
     languageName: 中
     author: RunwenQiu
     menu:
@@ -95,6 +101,9 @@ languages:
         # - name: 网站统计
         #   url: https://umami-ochre-nu.vercel.app/share/R1lHz7QY/hugo-ladder-exampleSite
         #   weight: 5
+        # - name: 搜索
+        #   url: /search
+        #   weight: 6
     params:
       brand: 主页
       authorDescription: 一个早睡早起的研究僧
